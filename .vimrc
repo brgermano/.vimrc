@@ -11,3 +11,8 @@ nnoremap <C-k> :tabnext<CR>
 
 set cursorcolumn 
 set cursorline
+
+" Ativa e desativa highlight nas pesquisas feitas com ?
+
+nnoremap <C-\> :set hlsearch<CR>
+nnoremap <F9> :nohlsearch<CR>
